@@ -3,7 +3,7 @@ import "./StaffList.css";
 
 export const StaffList = ({ employees }) => {
   const staff = employees.map((employee) => (
-    <Staffer key={employee.id} employee={employee} /> //link
+    <Staffer key={employee.id} employee={employee} /> 
   ));
 
   return (

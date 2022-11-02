@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
@@ -6,18 +6,18 @@ function Nav() {
     <header>
       <article>
         <h1>
-        <Link to={"/"}>
+          <Link to="/">
             Northwest <span>Animal Hospital</span>
-        </Link> 
+          </Link>
         </h1>
       </article>
       <aside>
         <ul>
           <li>
-            <Link to={"/stafflist"}>All Staff</Link>
+            <Link to="/staff">All Staff</Link>
           </li>
           <li>
-            <Link to={"/pets/"}>All Pets</Link>
+            <Link to="/pets/:animalType">All Pets</Link>
           </li>
         </ul>
       </aside>
